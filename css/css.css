@@ -1,0 +1,332 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    
+    background-color: rgba(64,63,81,255);
+}
+.hero{
+    height: 650px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:orange;
+}
+nav ul{
+    margin-right: 400px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 14px 25px;
+    
+    
+}
+nav ul li a{
+    color: lightgray;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: whitesmoke;
+    transition: 2s;
+}
+.icon{
+    color: white;   
+    margin-bottom: 25px;
+    
+}
+.icon a i{
+    color: white;
+    margin: 2px;
+
+}
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top:50%;
+    left:8%;
+    transform: translateY(-50%);
+}
+
+#contentimg{
+    margin-left: 300px;
+    position: absolute;
+    left: auto;
+    z-index: 4;
+    width: 650px;
+    height: 800px;
+    margin-top: -90px;
+}
+#contentimg img{
+    width: 800px;
+    height: 900px;    
+    
+    
+}
+#radius{
+    width: 550px;
+    height: 550px;
+    background-color:rgba(54,53,67,255);   
+    margin-left: 400px;    
+    border-radius: 600px;
+}
+#contenttxt{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: 6;
+    margin-top: -530px;
+    margin-left: 890px;
+}
+#showmore{
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1{
+    color:white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color:#fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:rgba(54,53,67,255);
+}
+.about #aboutimg{
+    height: 480px;
+     width: 400px;
+ }
+
+ .about-text{
+    width: 550px;
+}
+.main{
+    
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+hr{
+    background-color: orange;
+    height: 3px;
+    width: 300px;
+    margin: 0px;
+}
+pre{
+    color: lightgray;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(54,50,60,250);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+#brandsection{
+    background-color:  #10101be0;
+    opacity: 1;
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    position: absolute;
+    margin-top: -150px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 6;
+    
+
+}
+#brandsectiontable{
+  width: 80%;
+  margin-left: 10%;
+  padding: 35px;
+}
+
+#brandsectiontable tr td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-style: none;
+    background-color: #07070ce0;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+#brandboxdiv{
+    margin-top: 25px;
+    margin-left: 10%;
+}
+.boxbrand {
+    margin: 20px;
+    padding: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 20px;
+    
+    
+}
+#aboutcontent{
+
+    height: 500px;
+    width: 500px;
+
+    margin-left: -830px;
+}
+#aboutheading{
+    color: White;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -100px;
+    
+}
+#aboutheding2{
+    color: White;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -6px;   
+    margin-top: -60px; 
+}
+.aboutbox{
+    height: 250px;
+    width: 250px;
+   
+    
+    
+}
+.aboutpre{
+    margin-left: -200px;
+    margin-top: -10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.cardsection{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:rgba(54,53,67,255);
+    margin-top: -200px;
+
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+   
+    background: rgba(64,63,81,255);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: orange;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid orange;
+    cursor: pointer;
+}
